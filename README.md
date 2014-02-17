@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # osmscout-router
 
 [![Version](http://cocoapod-badges.herokuapp.com/v/osmscout-router/badge.png)](http://cocoadocs.org/docsets/osmscout-router)
@@ -24,3 +25,9 @@ Nicholas Kostelnik, nkostelnik@gmail.com
 
 osmscout-router is available under the MIT license. See the LICENSE file for more info.
 
+=======
+osmscout-router
+===============
+
+Uses osxscout to generate an offline map route.
+>>>>>>> 96964b4b111ceed5b22fd132ef883edd2d1ce6c9

@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
                        DESC
   s.license          = 'MIT'
   s.author           = { "Nicholas Kostelnik" => "nkostelnik@gmail.com" }
-  s.source           = { :git => "http://EXAMPLE/NAME.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/nkostelnik/osmscout-router.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/NAME'
   s.source_files = 'Classes'
   s.public_header_files = 'Classes/**/*.h'
