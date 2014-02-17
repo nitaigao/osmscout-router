@@ -1,4 +1,4 @@
-#import "Router.h"
+#import "OSMRouter.h"
 
 #include <osmscout/Database.h>
 #include <osmscout/Router.h>
@@ -6,7 +6,7 @@
 
 #include <osmscout/util/Geometry.h>
 
-@implementation Router
+@implementation OSMRouter
 
 - (id)initWithMap:(NSString*)aMapPath {
   self = [super init];

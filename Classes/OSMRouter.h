@@ -2,7 +2,7 @@
 
 #import <CoreLocation/CoreLocation.h>
 
-@interface Router : NSObject {
+@interface OSMRouter : NSObject {
   NSString* mapPath;
 }
 
