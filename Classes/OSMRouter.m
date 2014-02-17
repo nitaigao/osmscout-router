@@ -11,8 +11,11 @@
   return self;
 }
 
-- (NSArray*)routeFrom:(CLLocationCoordinate2D)start destination:(CLLocationCoordinate2D)destination {
-  return [[[OSMRouterInternal alloc] initWithMap:mapPath] routeFrom:start destination:destination];
+- (NSArray*)routeFrom:(NSArray*)params {
+	CLLocation* fromLocation = [params objectAtIndex:0];
+	CLLocation* destLocation = [params objectAtIndex:1];
+	return [[[OSMRouterInternal alloc] initWithMap:mapPath] routeFrom:fromLocation.coordinate 
+														  destination:destLocation.coordinate];
 }
 
 @end

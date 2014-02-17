@@ -8,6 +8,6 @@
 
 - (id)initWithMap:(NSString*)mapPath;
 
-- (NSArray*)routeFrom:(CLLocationCoordinate2D)start destination:(CLLocationCoordinate2D)destination;
+- (NSArray*)routeFrom:(NSArray*)params;
 
 @end
