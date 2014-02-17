@@ -1,0 +1,7 @@
+pod "osmscout-router", :path => "../osmscout-router.podspec"
+
+target "Demo" do
+end
+
+target "DemoTests" do
+end
